@@ -8,6 +8,8 @@ int main(){
     cin >> answer;
     if (answer=="blue"){
         cout << "Good Job";
+    } else if (answer == "red") {
+        cout << "Even better!" << endl;   
     } else {
         cout << "Blue is not your favorite color.";
     };
